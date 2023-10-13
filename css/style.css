@@ -4,6 +4,9 @@
 .banner-container{
     background-color: #747e85;
 }
+.navbar-container{
+    background-color: rgb(37, 34, 34);
+}
 .banner-column{
     background-color: #546f83;
 }
@@ -15,12 +18,27 @@
     font-family: 'Young Serif', serif;
     color: azure;
 }
-.navbar-container{
-    background-color: rgb(37, 34, 34);
-}
 .nav-link{
     color: rgb(150, 214, 214);
 }
 .about-container{
     background-color: #747e85;
+}
+.education-container{
+    background-color: #e9e0e0;
+}
+/* education round cirle will be red*/
+.bg-redtype{
+    background-color: #FB8578;
+}
+/* education text will be red*/
+.redtype-color{
+    color: #FB8578;
+}
+/* education round all will be affect*/
+.cirCle{
+    background-color: #FB8578;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
