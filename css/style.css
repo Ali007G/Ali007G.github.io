@@ -40,6 +40,9 @@
 .bg-redtype{
     background-color: #FB8578;
 }
+.bg-redtype:hover{
+    color: black!important;
+}
 /* education text will be red*/
 .redtype-color{
     color: #FB8578;
@@ -53,4 +56,7 @@
 }
 .form-container{
     background-color: #474D5D;
+}
+.inner-form{
+    background-color: #80889e;
 }
