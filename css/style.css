@@ -6,9 +6,10 @@
 }
 .navbar-container{
     top: 0;
-    background-color: rgb(37, 34, 34);
+    background-color: #262B37;
     position: sticky;
-    z-index: 2;
+    z-index: 1;
+    
 }
 .banner-column{
     background-color: #546f83;
@@ -48,7 +49,7 @@
     color: #FB8578;
 }
 /* education round all will be affect*/
-.cirCle{
+.circle-edu{
     background-color: #FB8578;
     width: 150px;
     height: 150px;
@@ -59,4 +60,20 @@
 }
 .inner-form{
     background-color: #80889e;
+}
+.footer{
+    background-color: #2BB3DD;
+}
+.circleIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(253, 253, 253);
+    font-size: 40px;
+    text-align: center;
+    color: #117996;
+}
+.circleIcon:hover{
+    background-color: black;
 }
