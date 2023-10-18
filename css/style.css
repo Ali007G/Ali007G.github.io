@@ -21,6 +21,29 @@
     border-width: 5px 10px 10px 10px;
     border-color: rgb(24, 15, 15) rgb(27, 168, 168) rgb(170, 159, 152) rgb(27, 168, 168)
 }
+/* this will color for contacts */
+.text-only{
+    font-family: 'Young Serif', serif;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #111129;
+    
+}
+/* this will change university, college, school */
+.education-text{
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif; */
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Tilt Neon', sans-serif;
+    text-shadow: 1px 1px 5px rgb(33, 190, 59);
+}
+/* this will change skills column title */
+.skills-text{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Tilt Neon', sans-serif;
+    text-shadow: 1px 1px 5px rgb(33, 190, 59);
+}
 .text-first{
     font-family: 'Young Serif', serif;
     color: aliceblue;
@@ -79,6 +102,7 @@
     font-family: 'Young Serif', serif;
     text-shadow: 0 0 5px #08e42c, 0 0 5px #0d2b07;
 }
+
 /* this is SKILLS text colour */
 .redskitype-color{
     color: #dcdce4;
@@ -103,6 +127,14 @@
     font-weight: lighter;
     font-family: 'Young Serif', serif, 'Font Awesome';
     text-shadow: 0 0 8px #08e42c, 0 0 5px #0d2b07;
+}
+/* this is CONTACTS text colour */
+.redcontype-color{
+    color: #dcdce4;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: 'Young Serif', serif, 'Font Awesome';
+    text-shadow: 0 0 8px #14899e, 0 0 15px #0d2b07;
 }
 .allproject-image{
     margin: 5px;
@@ -172,16 +204,17 @@
     }
 } */
 
-
 .card-body{
     border-left: 3px solid rgb(245, 77, 11);
-    box-shadow: 0 0 5px rgba(9, 245, 9, 0.5);
-    border-bottom: 6px solid #262B37;
+    box-shadow: 0 0 15px rgba(40, 223, 255, 0.733);
+    border-bottom: 4px solid #262B37;
     /* background-color: lightgrey; */
     background-image: linear-gradient(to bottom, #f0f1f5, #2e9c3d);
     /* background-image: linear-gradient(to top, #FB8578, #F77871); */
 }
-  
+/* .card-body:hover {
+    box-shadow: 0 0 10px rgba(15, 88, 223, 0.9);
+} */
 
 .form-container{
     background-color: #474D5D;
@@ -190,20 +223,22 @@
     background-color: #80889e;
 }
 .footer{
-    background-color: #2BB3DD;
+    /* background-color: #2BB3DD; */
+    background-color: #232333;
 }
 .circleIcon{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: inline-block;
     background-color: rgb(253, 253, 253);
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     color: #117996;
 }
 .circleIcon:hover{
     background-color: black;
+    /* box-shadow: 0 0 30px rgba(38, 39, 41, 0.9); */
 }
 
 /* this is ALL Skills section work */
@@ -212,7 +247,6 @@
     /* font-family: Arial, sans-serif; */
     /* background-color: #584747; */
     /* height: 100vh; */
-
 
 .container {
     max-width: 1200px;
@@ -255,8 +289,13 @@ h1 {
 }
 
 .skills-list {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
+    font-family: 'Tilt Neon', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif; */
+    /* text-shadow: 1px 1px 5px rgb(33, 190, 59); */
 }
 
 .skills-list li {
@@ -264,10 +303,8 @@ h1 {
 }
 
 .column:hover {
-    background-color: #c7a6a6;
-    /* Change background color on hover */
-    box-shadow: 0 0 10px rgba(15, 88, 223, 0.9);
-    /* Change box-shadow color on hover */
+    background-color: #c7a6a6; /* Change background color on hover */
+    box-shadow: 0 0 10px rgba(15, 88, 223, 0.9); /* Change box-shadow color on hover */
 }
 
 /* .body-all { */
