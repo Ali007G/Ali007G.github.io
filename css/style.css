@@ -32,14 +32,14 @@
     /* font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Young Serif', serif; */
-    font-size: 25px;
+    /* font-size: 25px; */
     font-weight: bold;
     font-family: 'Tilt Neon', sans-serif;
     text-shadow: 1px 1px 5px rgb(33, 190, 59);
 }
 /* this will change skills column title */
 .skills-text{
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: bold;
     font-family: 'Tilt Neon', sans-serif;
     text-shadow: 1px 1px 5px rgb(33, 190, 59);
